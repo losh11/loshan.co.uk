@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.clr{
+    clear:both;
+}
+
+body{
+    background-color: grey;
+}
+
+.container{
+    width: 50%;
+    margin:auto;
+}
+
+#img-loshan{
+    border-radius:50%;
+    width: 35%; /* no se si poner % o px */
+    border: 5px solid black;
+    object-fit: cover;
+    margin-top: 15%;
+    margin-left: 33.7%;
+
+
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 7vw;
+    font-weight: bold;
+    padding:30px;
+    margin-top: 5%;
+    margin-left:4%;
+    text-align:center;
+}
+
+.x-logo{
+    width: 70%;
+}
+
+.reddit-logo{
+    width:70%;
+}
+
+.github-logo{
+    width:70%;
+}
+
+.mail-logo{
+    width:70%;
+}
+
+.socialblock{
+    float: left;
+    width:20%;
+    box-sizing:border-box
