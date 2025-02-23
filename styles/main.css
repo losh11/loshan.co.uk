@@ -16,6 +16,7 @@ h1 {
 }
 
 .container {
+    padding-top: 120px;
     display: flex;
     flex-direction: column;
 }
@@ -29,15 +30,25 @@ h1 {
 .socialblock {
     display: flex;
     flex-direction: row;
-    background-color: blue;
-    align-content: space-evenly;
+    justify-content: center;
+    gap: 12px;
+}
+
+.socialbtn {
+    display: flex;
+    justify-content: center;
 }
 
 .logo {
-    width: 40%;
-    background-color: red;
+    width: 40px;
 }
 
 h1 {
     font-family: "Funnel Display", serif;
+}
+
+@media only screen and (max-width: 800px) {
+    h1 {
+        font-size: 40px;
+    }
 }
